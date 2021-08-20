@@ -6,13 +6,14 @@
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link rel='stylesheet' href='source/css/main.min.css'>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 	<title>Document</title>
 </head>
 
 <body>
 	<div class="wrapper">
 		<div class="video-chat">
-			<!-- класс vertical horizontal для вертикального и горизонтального видео -->
+			<!-- класс vertical horizontal для div.video для вертикального и горизонтального видео -->
 			<div class="video horizontal">
 				<video preload="auto" playsInline data-setup="{}" muted autoplay>
 					<source id="" src="horizont-video.mp4" type="video/mp4" />
@@ -123,7 +124,7 @@
 				
 				</div>
 				<div class="panel">
-					<input type="text" placeholder="Добавить комментарий">
+					<textarea class="panel-textarea" style="resize: none;" type="text" placeholder="Добавить комментарий"></textarea>
 
 					<div class="panel__icons">
 						<div class="panel__icon">
